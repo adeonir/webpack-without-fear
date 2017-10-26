@@ -1,0 +1,30 @@
+{
+  "name": "webpack-without-fear",
+  "version": "1.0.0",
+  "description": "A simple project to learn Webpack",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "build:watch": "webpack -w",
+    "build:prod": "webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adeonir/webpack-without-fear.git"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "Adeonir Kohl <adeonir@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adeonir/webpack-without-fear/issues"
+  },
+  "homepage": "https://github.com/adeonir/webpack-without-fear#readme",
+  "devDependencies": {
+    "webpack": "^3.8.1"
+  },
+  "dependencies": {
+    "cowsay-browser": "^1.1.8"
+  }
+}
