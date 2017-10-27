@@ -25,6 +25,18 @@
         {
           test: /\.styl$/,
           use: ['style-loader', 'css-loader', 'stylus-loader']
+        },
+        {
+          test: /\.(png|jpg)/,
+          use: [
+            {
+              loader: 'file-loader',
+              options: {
+                name: '[name].[ext]',
+                outputPath: 'img/'
+              }
+            }
+          ]
         }
       ]
     }
